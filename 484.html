@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+    background-image:url('GettyImages-848755326-48dd2711646247648c4faebc98715119.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+
+
+    }
+
+    </style>
+    
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+         
+        <h2><p style="color:black (248, 242, 242);">LOAN CALCULATOR</p></h2>  
+        <form id="loan-form">
+            <div>
+                <label><p style="color:black;">Loan Amount:</p></label>
+                <input type="number" id="loan-amount" required>
+            </div>
+            <div>
+                <label><p style="color:black;">Interest Rate(%):</p></label>
+                <input type="number" id="interest-rate" required>
+            </div>
+            <div>
+                <label><p style="color:black;">Loan Term(Years):</p></label>
+                <input type="number" id="loan-term" required>
+            </div>
+
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    
+     <script src="app.js"></script>
+</body>
+</html>
